@@ -1,4 +1,3 @@
-
 /*
 jQuery.mailChimpSubscribe
 Licensed under the MIT license
