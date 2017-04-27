@@ -34,7 +34,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                     type: "POST",
                     url: url,
                     data: $form.serialize(),
-                    dataType: "jsons",
+                    dataType: "jsonp",
                     success: function (data) {
                         if (typeof settings.success === "function")
                             settings.success(data);
